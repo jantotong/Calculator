@@ -2,7 +2,7 @@
 
 Things to do:
 1. Parentheses for Infix to Postfix (it throws to nothing for now)
-2. Infix to Prefix
+2. Reverse has one blank space in front of output for unknown reason
 
 Note: 
 1. main() is done
