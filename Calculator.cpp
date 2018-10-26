@@ -1,9 +1,6 @@
 #include <iostream>
 #include <string>
-#include "Node.h"
-#include "HeadNode.h"
 #include "Stack.h"
-#include "LinkedList.h"
 #include "Queue.h"
 #include "Calculator.h"
 
