@@ -12,7 +12,7 @@ class Calculator {
 		bool isOperand(char chr);
 		string InfixToPostfix();
 		string reverse();
-		string InfixToPrefix();
+		string PostfixToPrefix();
 		string output;
 		string expression;
 };
