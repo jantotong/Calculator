@@ -5,3 +5,4 @@ Things to do:
 2. Infix to Prefix
 
 Note: main() is done
+Infix to postfix works if no parenthesis included
