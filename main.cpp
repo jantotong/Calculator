@@ -15,7 +15,7 @@
 		cout << calc.output << endl;
 		//Infix to Prefix
 		cout << "Postfix to Prefix:" << endl;
-		calc.reverse();
+		calc.PostfixToPrefix();
 		cout << calc.output << endl;
 		system("pause");
 	};
