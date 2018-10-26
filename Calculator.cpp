@@ -64,8 +64,8 @@ string Calculator::InfixToPostfix() {
 	return output;
 }
 
-string Calculator::InfixToPrefix() {
-	return expression;
+string Calculator::PostfixToPrefix() {
+	return reverse();
 }
 
 int Calculator::precedence(char op) {
@@ -96,10 +96,10 @@ bool Calculator::isOperand(char chr) {
 
 string Calculator::reverse() {
 	string newE="";
-	int len = expression.length();
+	int len = output.length();
 	for (len; len >= 0; len--) {
-		newE += expression[len];
+		newE += output[len];
 	}
-	expression = newE;
-	return expression;
+	output = newE;
+	return output;
 }
