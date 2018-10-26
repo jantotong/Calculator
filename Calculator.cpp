@@ -95,11 +95,25 @@ bool Calculator::isOperand(char chr) {
 }
 
 string Calculator::reverse() {
-	string newE="";
+	string newE = "";
 	int len = output.length();
+
 	for (len; len >= 0; len--) {
 		newE += output[len];
 	}
+
+	for (int i = 0; i < len; i++) {
+
+		if (output[i] == '(') {
+			output[i] = ')';
+			i++;
+		}
+		else if (output[i] == ')') {
+			output[i] = '(';
+			i++;
+		}
+	}
+
 	output = newE;
 	return output;
 }
