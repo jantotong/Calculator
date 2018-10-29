@@ -1,8 +1,6 @@
 # Lab3
 
 Things to do:
-1. Parentheses for Infix to Postfix (it throws to nothing for now)
-2. Reverse has one blank space in front of output for unknown reason
 3. Prefix
 
 Note: 
